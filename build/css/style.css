@@ -784,6 +784,10 @@ video {
   transition-timing-function: linear;
 }
 
+*{
+  font-family: 'Inter', sans-serif;
+}
+
 .max-width-container{
   max-width: 1440px;
 }
