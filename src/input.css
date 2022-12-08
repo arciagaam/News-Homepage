@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@layer utilities {
+    .max-width-container{
+        max-width: 1440px;
+    }
+
+    .text-custom-xl {
+        font-family: 'Inter', sans-serif;
+        font-size: 5em;
+        line-height: 1em;
+        font-weight: 800;
+    }
+    
+    .tracking-custom-widest {
+        letter-spacing: .4em;
+    }
+
+    button {
+        transition: .1s ease-in-out;
+    }
+
+    button:hover {
+        background-color: hsl(240, 100%, 5%);
+    }
+
+    .new-items > *:not(:last-child){
+        border-bottom: thin solid hsl(236, 13%, 42%);
+    }
+}
